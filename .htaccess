@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Set the RewriteBase to your project's subdirectory
+RewriteBase /docman/
+
+# Skip rewrite for existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Route all other requests through index.php
+RewriteRule ^ index.php [QSA,L]

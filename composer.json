@@ -1,0 +1,25 @@
+{
+    "name": "piopr/docman",
+    "description": "Docman PBL project",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Piopr\\Docman\\": "src/"
+        },
+        "files": [
+            "global.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "piopratama",
+            "email": "piopratama2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.5@dev",
+        "fzaninotto/faker": "^1.9@dev"
+    }
+}
