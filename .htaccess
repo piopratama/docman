@@ -1,6 +1,8 @@
 RewriteEngine On
 
 # Set the RewriteBase to your project's subdirectory
+# Use bellow code if you put the project under docman directory in your local,
+# instead use RewriteBase / if you put the project directly under public_html (without docman directory) in your hosting
 RewriteBase /docman/
 
 # Skip rewrite for existing files and directories
