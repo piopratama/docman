@@ -40,6 +40,9 @@ switch ($request) {
     case 'dashboard':
         $controller = 'DashboardController';
         break;
+    case 'admin/user':
+        $controller = 'UserController';
+        break;
     default:
         echo '404 Not found';
         exit;

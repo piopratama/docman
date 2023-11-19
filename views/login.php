@@ -1,7 +1,7 @@
 <?php 
     include 'templates/header.php';
 ?>
-
+<h1>Login</h1>
 <form action="authenticate" method="POST">
     <label for="username">Username:</label>
     <input type="text" name="username" id="username" required>
